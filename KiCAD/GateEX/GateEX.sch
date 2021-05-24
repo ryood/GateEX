@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "GATE EX"
-Date "2021-05-02"
+Date "2021-05-06"
 Rev "Ver. 1.0"
 Comp "PNPN Manufactory"
 Comment1 ""
@@ -1049,12 +1049,12 @@ Wire Wire Line
 Connection ~ 3000 6400
 Wire Wire Line
 	3000 6400 2600 6400
-Wire Bus Line
-	3350 3000 3350 4600
-Wire Bus Line
-	7450 3000 7450 4600
 Text Notes 10100 3500 0    50   ~ 0
 Duty2
 Text Notes 6000 3500 0    50   ~ 0
 Duty1
+Wire Bus Line
+	3350 3000 3350 4600
+Wire Bus Line
+	7450 3000 7450 4600
 $EndSCHEMATC
